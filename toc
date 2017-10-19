@@ -1,0 +1,20 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="network-attached-storage" audience="services" href=“/docs/infrastructure/network-attached-storage/index.html”}
+IBM Cloud Storage - Network Attached Storage
+
+    {: .navgroup id="learn"}
+    index.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    configure-ftp-nas-cpanel-whm.md
+    connect-nas-storage-windows.md
+    mount-nas-storage-freebsd.md
+    mount-nas-storage-linux.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    nas-faq.md
+    {: .navgroup-end}
