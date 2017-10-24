@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2017-10-18"
+lastupdated: "2017-10-24"
 ---
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
@@ -17,13 +17,15 @@ Please refer to our current [Cloud Storage Solutions](https://www.ibm.com/cloud-
 Ordering additional NAS storage takes place out of the  [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. To learn more about our storage offerings, please visit [Cloud Storage Solutions](https://www.ibm.com/cloud-computing/bluemix/cloud-storage){:new_window}.
 
 1. Log into the  [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} using your unique credentials.
-2. Select **Add NAS Storage** from the **Sales** drop down list at the top of the screen.
-3. Select the radio button for the appropriate **Data Center** for the new NAS/FTP Storage.
-4. Select the radio button for the appropriate **Storage Space** for the new NAS/FTP Storage.
-5. Click the **Continue to Checkout button**.
-6. Enter any applicable **Promotional Codes** in the Promotional Codes field and click the **Recalculate** button to calculate your new price.
-7. Review the Master Service Agreement and select the **I have read...** check box.
-8. Click the **Finalize Your Order** button to submit your order.
+2. In the top menu, click **Storage** > **{{site.data.keyword.filestorage_short}}**.
+3. Click **Order {{site.data.keyword.filestorage_short}}** in the top right corner of the screen. 
+4. Select **NAS/FTP** from the **Storage Type** drop down list at the top of the screen.
+5. Select the appropriate **Data Center** for the new NAS/FTP Storage from the **Location** drop down list.
+6. Select the radio button for the appropriate **Storage Size** for the new NAS/FTP Storage.
+7. Click the **Continue**.
+8. Enter any applicable **Promotional Codes** in the Promotional Codes field and click the **Recalculate** button to calculate your new price.
+9. Review the Master Service Agreement and select the **I have read...** check box.
+10. Click the **Place Order** button to submit your order.
 
 ## Accessing the Storage Screen
 
