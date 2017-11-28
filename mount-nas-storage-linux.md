@@ -23,9 +23,7 @@ Please note that while the majority of steps apply to all of the operating syste
 ## Mount NAS Storage
 
 1. Determine if the OS on your device is RedHat Enterprise Linux, CentOS or CloudLinux -OR- Debian or Ubuntu.
-
-  
-      <table>
+<table>
         <colgroup> <col/> <col/> </colgroup>
         <thead>
           <tr>
@@ -58,7 +56,7 @@ Please note that while the majority of steps apply to all of the operating syste
             </td>
           </tr>
         </tbody>
-      </table>
+</table>
 
 2. Create the directory and mount the device using the following commands:
    ```
