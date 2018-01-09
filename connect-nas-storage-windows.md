@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-10-18"
+  years: 1994, 2018
+lastupdated: "2018-01-09"
 ---
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
@@ -25,8 +25,7 @@ Mapping NAS Storage in Windows may take place either in the Command Line or thro
 
 3. Select the desired **Drive Letter** from the **Drive** drop down list.
 
-4. Enter the path to the NAS in the **Folder** field in the following format:<br/><br/>\\\nas0X.service.softlayer.com\{NASusername}
-
+4. Enter the path to the NAS in the **Folder** field in the following format:<br/><br/>'\\nas0X.service.softlayer.com\{NASusername}`
 5. Select the **Connect Using a Different User Name** option and enter the following information:
   * Enter the **NAS Username** in the **Username** field.
   * Enter the **NAS Password** in the **Password** field.
