@@ -1,9 +1,10 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-28"
+  years: 1994, 2018
+lastupdated: "2018-03-01"
 ---
 {:shortdesc: .shortdesc}
+{:note: .deprecated}
 {:new_window: target="_blank"}
 
 # Mounting NAS Storage in Linux

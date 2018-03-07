@@ -1,9 +1,10 @@
 ---
 copyright:
   years: 1994, 2018
-lastupdated: "2018-01-09"
+lastupdated: "2018-03-01"
 ---
 {:shortdesc: .shortdesc}
+{:note: .deprecated}
 {:new_window: target="_blank"}
 
 # Connecting to NAS Storage in Windows
