@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2018
-lastupdated: "2018-03-01"
+lastupdated: "2018-03-09"
 ---
 {:shortdesc: .shortdesc}
 {:note: .deprecated}
@@ -11,7 +11,7 @@ lastupdated: "2018-03-01"
 
 ## Overview
 
-cPanel&WHM can be used with your NAS to upload data via File Transfer Protocol (FTP) to your NAS storage device. Follow the steps below to configure FTP for your NAS with cPanel&WHM. For more information on configuring transfers with cPanel&WHM, refer to cPanel's wiki for [configuration](http://docs.cpanel.net/twiki/bin/view/11_34/WHMDocs/ConfigBackup){:new_window}.
+cPanel&WHM can be used with your NAS to upload data via File Transfer Protocol (FTP) to your NAS storage device. Follow the steps below to configure FTP for your NAS with cPanel&WHM. For more information on configuring transfers with cPanel&WHM, refer to cPanel's wiki for [configuration](https://docs.cpanel.net/display/68Docs/Backup+Configuration#70704c1ed4aa4817b989519beca3f78d){:new_window}.
 
 ## Configure FTP with cPanel&WHM
 
@@ -27,7 +27,7 @@ cPanel&WHM can be used with your NAS to upload data via File Transfer Protocol (
 2. Select **Configure Backup** from the **Backup** menu option on the **Home** screen.<br/><br/>**Note:** The Configure Backup screen may also be accessed by entering Configure Backup in the Search bar from any screen within WHM.
 
 3. Update the **Configuration Options** based on your backup preferences. Refer to the table below for the required Configuration Option
-updates. For information on additional options, refer to cPanel's wiki for [backup configuration](http://docs.cpanel.net/twiki/bin/view/11_34/WHMDocs/ConfigBackup){:new_window}.
+updates. For information on additional options, refer to cPanel's wiki for [backup configuration](https://docs.cpanel.net/display/68Docs/Backup+Configuration#70704c1ed4aa4817b989519beca3f78d){:new_window}.
 
 4. Click the **Save** button to save the configuration.
 
