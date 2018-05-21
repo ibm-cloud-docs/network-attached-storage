@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2018
-lastupdated: "2018-03-01"
+lastupdated: "2018-05-21"
 ---
 {:shortdesc: .shortdesc}
 {:note: .deprecated}
@@ -11,7 +11,7 @@ lastupdated: "2018-03-01"
 
 ## Overview
 
-Mounting your NAS Storage to a device that runs on a Linux-based Operating System can be done using a series of simple commands in the shell or terminal within the OS.  This procedure outlines the steps required to mount NAS Storage on any of the following operating systems:
+Mounting your NAS Storage to a device that runs on a Linux-based Operating System can be done using a series of simple commands in the shell or terminal within the OS. This procedure outlines the steps required to mount NAS Storage on any of the following operating systems:
 
 * RedHat Enterprise Linux
 * CentOS
@@ -21,10 +21,11 @@ Mounting your NAS Storage to a device that runs on a Linux-based Operating Syste
 
 Please note that while the majority of steps apply to all of the operating systems listed above, the commands required to determine if your CIFS utility is installed on Debian and Ubuntu are unique.  Follow the steps below to mount NAS Storage to your Linux-based OS.
 
-## Mount NAS Storage
+## Mount NAS storage
 
 1. Determine if the OS on your device is RedHat Enterprise Linux, CentOS or CloudLinux -OR- Debian or Ubuntu.
 <table>
+  <caption>Table 1 shows the commands used in various Linux distributions.</caption>
    <colgroup> <col/> <col/> </colgroup>
      <tr>
        <th>If your device is running…</th>
@@ -51,9 +52,9 @@ Please note that while the majority of steps apply to all of the operating syste
 </table>
 
 2. Create the directory and mount the device using the following commands:
-```
-mkdir /local/mountpoint
-mount -t cifs //Hostname/Username -o username=username,password=password,rw,nounix,iocharset=utf8,file_mode=0644,dir_mode=0755,sec=ntlmssp /mnt
+  ```
+  mkdir /local/mountpoint
+  mount -t cifs //Hostname/Username -o              username=username,password=password,rw,nounix,iocharset=utf8,file_mode=0644,dir_mode=0755,sec=ntlmssp /mnt
 ```
  **Example:**
 ```
