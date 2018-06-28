@@ -7,7 +7,7 @@ lastupdated: "2018-06-28"
  
 # Mounting NAS Storage in FreeBSD
 
-Mounting your NAS Storage to a device that runs on FreeBSD can be done using a series of simple commands in the command line.
+Mounting your NAS Storage to a device that runs on FreeBSD can be done by using a series of simple commands in the command line.
 
 ## Mount NAS Storage
 
@@ -17,11 +17,11 @@ Mounting your NAS Storage to a device that runs on FreeBSD can be done using a s
    ```
 
 2. Run the following command to mount the NAS:
-  ```
-  mount_smbfs -I NASIP //username@NASIP/username /local/mountpoint
-  ```
+   ```
+   mount_smbfs -I NASIP //username@NASIP/username /local/mountpoint
+   ```
 
-3. Enter the NAS password in the appropriate location in the command line when prompted.
+3. Enter the NAS password when you are prompted.
 
    **Example**
    
