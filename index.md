@@ -1,15 +1,14 @@
 ---
 copyright:
   years: 1994, 2018
-lastupdated: "2018-05-21"
+lastupdated: "2018-06-28"
 ---
-{:shortdesc: .shortdesc}
 {:note: .deprecated}
 {:new_window: target="_blank"}
 
 # Getting Started with NAS
 
-NAS stands for network-attached storage. NAS is our earlier storage option for users who were looking for a solution similar to our LockBox storage but with more space. NAS allows for remote file storage directly from the server by using either command line/terminal interactions or through point-and-click interactions, if available. In addition to direct interaction with NAS from your server, you can also use Plesk or cPanel with File Transfer Protocol (FTP) to transfer files to NAS. FTP is complimentary with any NAS service, and NAS was offered at a nominal monthly fee based on the amount of storage.
+NAS stands for network-attached storage. NAS was an earlier storage option for users who were looking for a solution similar to our LockBox storage but with more space. NAS allows for remote file storage directly from the server by using either command line/terminal interactions or through point-and-click interactions, if available. In addition to direct interaction with NAS from your server, you can also use Plesk or cPanel with File Transfer Protocol (FTP) to transfer files to NAS. FTP is complimentary with any NAS service, and NAS was offered at a nominal monthly fee based on the amount of storage.
 
 IBM Cloud ended the sales (EOS) of NAS FTP storage services across all sales channels on **March 31, 2018**.
 
