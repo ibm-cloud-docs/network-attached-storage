@@ -14,7 +14,3 @@ IBM Cloud Storage - Network Attached Storage
     mount-nas-storage-freebsd.md
     mount-nas-storage-linux.md
     {: .navgroup-end}
-
-    {: .navgroup id="help"}
-    nas-faq.md
-    {: .navgroup-end}
