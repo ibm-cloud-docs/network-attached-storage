@@ -1,4 +1,4 @@
-# Network Attached Storage
+# Network-attached storage
 
 IBM Cloud ended the sales of NAS FTP storage services across all sales channels on **March 31, 2018**.
 
