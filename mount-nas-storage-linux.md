@@ -74,16 +74,16 @@ Most of the steps apply to all of the listed Linux operating systems. However, t
    //nas05.service.softlayer.com/SL12345-1 cifs     54T   49T  5.3T  91% /mnt/nas
    ```
 
-3. Determine whether the LockBox is to be mounted on restart.
+3. Determine whether the storage is to be mounted on restart.
    - If you want the NAS to be mounted on restart, update the `/etc/fstab` file. Replace `SL12345-1` and `NASPASSWORD` with your credentials.
    
      ```
      \//nas05.service.softlayer.com/SL12345-1        
-     /mnt/lockbox         
+     /mnt/nas       
      cifs defaults,username=SL12345-1,password=NASPASSWORD 0 0
      ```
      {:pre}
    
-   - If you don't want the LockBox to be mounted on restart, then go to the next step.
+   - If you don't want the storage to be mounted on restart, then go to the next step.
    
 4. Verify that the `fstab` was edited correctly by unmounting and mounting the storage.
