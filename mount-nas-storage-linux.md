@@ -1,17 +1,15 @@
 ---
 copyright:
   years: 1994, 2018
-lastupdated: "2018-05-21"
+lastupdated: "2018-06-28"
 ---
-{:shortdesc: .shortdesc}
+{:pre: .pre}
 {:note: .deprecated}
-{:new_window: target="_blank"}
+
 
 # Mounting NAS Storage in Linux
 
-## Overview
-
-Mounting your NAS Storage to a device that runs on a Linux-based Operating System can be done using a series of simple commands in the shell or terminal within the OS. This procedure outlines the steps required to mount NAS Storage on any of the following operating systems:
+Mounting your NAS Storage to a device that runs on a Linux-based Operating System can be done by using a series of simple commands in the shell or terminal within the OS. You can use these steps to mount NAS Storage on any of the following operating systems:
 
 * RedHat Enterprise Linux
 * CentOS
@@ -19,50 +17,73 @@ Mounting your NAS Storage to a device that runs on a Linux-based Operating Syste
 * Debian
 * Ubuntu
 
-Note: while the majority of steps apply to all of the operating systems listed above, the commands required to determine whether the CIFS utility is installed on Debian and Ubuntu are unique.
+Most of the steps apply to all of the listed Linux operating systems. However, the commands that are required to determine whether the CIFS utility is installed on Debian and Ubuntu are unique. Select the steps that are appropriate for the device's current OS.
 
-## Mount NAS storage
+## Mounting NAS storage
 
-1. Determine whether the OS on your device is RedHat Enterprise Linux, CentOS, or CloudLinux -OR- Debian or Ubuntu.
-<table>
-  <caption>Table 1 shows the commands used in various Linux distributions.</caption>
-   <colgroup> <col/> <col/> </colgroup>
-     <tr>
-       <th>If your device is running…</th>
-       <th>Then…</th>
-     </tr>
-     <tr>
-       <td>RedHat Enterprise Linux, CentOS or CloudLinux</td>
-       <td>Determine if the cifs-utils utility is installed by running the following command:<code>root@slnastest [~]# rpm -q cifs-utils</code><br/><strong>Note:</strong> If cifs-utils is not installed, the following message will appear:<code>package cifs-utils is not installed</code>.
-         <ul>
-           <li>if cifs-utils is installed, proceed to the next step.</li>
-           <li>if cifs-utils is not installed, install the utility by using the following command:<code>root@slnastest [~]# yum install cifs-utils</code></li>
-         </ul>
-       </td>
-     </tr>
-     <tr>
-       <td>Debian or Ubuntu</td>
-       <td>Determine if the cifs-utils utility is installed by running the following command:<code>root@slnastest:~# dpkg-query -S cifs-utils</code><br/><strong>Note</strong>: if cifs-utils is not installed, the following message appears:<code>dpkg-query: no path found matching pattern <em>cifs-utils</em>.</code>
-          <ul>
-            <li>if cifs-utils is installed, proceed to the next step.</li>
-            <li>if cifs-utils is not installed, install the utility by using the following command: <code>root@slnastest [~]# apt-get install cifs-utils</code> <br/> <code>root@slnastest:~# dpkg-query -S cifs-utils</code><br/><code>cifs-utils: /usr/share/doc/cifs-utils</code><br/><code>cifs-utils: /usr/share/doc/cifs-utils/changelog.gz</code><br/><code>cifs-utils: /usr/share/doc/cifs-utils/NEWS.Debian.gz</code><br/><code>cifs-utils: /usr/share/doc/cifs-utils/changelog.Debian.gz</code><br/><code>cifs-utils: /usr/share/doc/cifs-utils/copyright</code></li>
-           </ul>
-       </td>
-     </tr>
-</table>
+1. Determine whether the OS on the device is RedHat Enterprise Linux, CentOS, or CloudLinux **OR** Debian or Ubuntu.
+   - If the OS is RedHat Enterprise Linux, CentOS or CloudLinux, determine whether the <code>cifs-utils</code> utility is installed.
+     ```
+     root@sllockboxtest [~]# rpm -q cifs-utils
+     ```
+     {:pre}
+     
+       - If `cifs-utils` is installed, proceed to the next step. 
+       - If `cifs-utils` is not installed, install the utility with the following command.
+         ```
+         yum install cifs-utils
+         ```
+         {:pre}
+     
+   - If the OS is Debian or Ubuntu, determine whether the `cifs-utils` utility is installed.
+     ```
+     root@sllockboxtest:~# dpkg-query -S cifs-utils
+     ```
+     {:pre}
+     
+       - If `cifs-utils` is installed, the following message appears: `dpkg-query-S cifs-utils`. Proceed to the next step.
+       - If `cifs-utils` is not installed, the following message appears:`dpkg-query: no path found matching pattern *cifs-utils*`. Install the utility by running the following command.
+         ```
+         apt-get install cifs-utils
+         ```
+         {:pre}
+       
+          ```
+          root@sllockboxtest:~# dpkg-query -S cifs-utils
+          cifs-utils: /usr/share/doc/cifs-utils
+          cifs-utils: /usr/share/doc/cifs-utils/changelog.gz
+          cifs-utils: /usr/share/doc/cifs-utils/NEWS.Debian.gz
+          cifs-utils: /usr/share/doc/cifs-utils/changelog.Debian.gz
+          cifs-utils: /usr/share/doc/cifs-utils/copyright
+          ```
+2. Create the directory and mount the device.
 
-2. Create the directory and mount the device:
-  ```
-  mkdir /local/mountpoint
-  mount -t cifs //Hostname/Username -ousername=username,password=password,rw,nounix,iocharset=utf8,file_mode=0644,dir_mode=0755,sec=ntlmssp /mnt
-  ```
- **Example:**
-  ```
-  root@slnastest [~]# mkdir /mnt/nas
-  root@slnastest [~]# mount -t cifs //nas05.service.softlayer.com/SL12345-1 -o username=SL12345-  1,password=NASPASSWORD,rw,nounix,iocharset=utf8,file_mode=0644,dir_mode=0755,sec=ntlmssp /mnt/nas
-  root@slnastest [~]# df -Th /mnt/nas/
-  Filesystem                              Type    Size  Used Avail Use% Mounted on
-  //nas05.service.softlayer.com/SL12345-1 cifs     54T   49T  5.3T  91% /mnt/nas
-  ```
+   ```
+   mkdir /local/mountpoint
+   mount -t cifs //Hostname/Username -o username=username,password=password /local/mountpoint
+   ```
+   {:pre}
 
-3. Determine whether the NAS should mount on reboot.
+   **Example**
+   
+   ```
+   root@slnastest [~]# mkdir /mnt/nas
+   root@slnastest [~]# mount -t cifs //nas05.service.softlayer.com/SL12345-1 -o username=SL123451,password=NASPASSWORD,rw,nounix,iocharset=utf8,file_mode=0644,dir_mode=0755,sec=ntlmssp /mnt/nas
+   root@slnastest [~]# df -Th /mnt/nas/
+   Filesystem                              Type    Size  Used Avail Use% Mounted on
+   //nas05.service.softlayer.com/SL12345-1 cifs     54T   49T  5.3T  91% /mnt/nas
+   ```
+
+3. Determine whether the LockBox is to be mounted on restart.
+   - If you want the NAS to be mounted on restart, update the `/etc/fstab` file. Replace `SL12345-1` and `NASPASSWORD` with your credentials.
+   
+     ```
+     \//nas05.service.softlayer.com/SL12345-1        
+     /mnt/lockbox         
+     cifs defaults,username=SL12345-1,password=NASPASSWORD 0 0
+     ```
+     {:pre}
+   
+   - If you don't want the LockBox to be mounted on restart, then go to the next step.
+   
+4. Verify that the `fstab` was edited correctly by unmounting and mounting the storage.
