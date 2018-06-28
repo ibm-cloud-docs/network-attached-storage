@@ -8,7 +8,7 @@ lastupdated: "2018-06-28"
 
 # Network-attached storage - frequently asked questions
 
-**Can NAS be used to store files from personal devices?
+**Can NAS be used to store files from personal devices?**
 
 {{site.data.keyword.BluSoftlayer_full}} only allows files from devices on the {{site.data.keyword.BluSoftlayer_full}} network to be stored with NAS, meaning that files on personal devices are not eligible for NAS. However, any file from a device on the {{site.data.keyword.BluSoftlayer_full}} network may be stored with NAS.
 
