@@ -1,34 +1,39 @@
 ---
 copyright:
   years: 1994, 2018
-lastupdated: "2018-03-09"
+lastupdated: "2018-06-28"
 ---
-{:shortdesc: .shortdesc}
+{:pre: .pre}
 {:note: .deprecated}
 {:new_window: target="_blank"}
 
-# Configuring FTP for NAS with cPanel & WHM
+# Configuring FTP for NAS with cPanel and WHM
 
-## Overview
+You can use NAS with cPanel and WHM for your Backups. You can load data through File Transfer Protocol (FTP) to your NAS storage device. Follow the steps below to configure FTP for your NAS with cPanel and WHM.
 
-cPanel&WHM can be used with your NAS to upload data via File Transfer Protocol (FTP) to your NAS storage device. Follow the steps below to configure FTP for your NAS with cPanel&WHM. For more information on configuring transfers with cPanel&WHM, refer to cPanel's wiki for [configuration](https://docs.cpanel.net/display/68Docs/Backup+Configuration#70704c1ed4aa4817b989519beca3f78d){:new_window}.
+## Configuring FTP
 
-## Configure FTP with cPanel&WHM
+1. Log in to WHM with your unique credentials.
 
-|Configuration Option|Entry|
-|---|---|
-|Backup Type|Remote FTP (Accounts Only)|
-|Remote FTP Host|The host name for the NAS storage|
-|FTP Backup User|The username associated with the selected NAS|
-|FTP Backup Password|The password associated with the selected NAS|
+2. On the **Home** screen, select **Configure Backup** from the **Backup** menu.
 
-1. Login to WHM using your unique credentials.
-
-2. Select **Configure Backup** from the **Backup** menu option on the **Home** screen.<br/><br/>**Note:** The Configure Backup screen may also be accessed by entering Configure Backup in the Search bar from any screen within WHM.
-
-3. Update the **Configuration Options** based on your backup preferences. Refer to the table below for the required Configuration Option
-updates. For information on additional options, refer to cPanel's wiki for [backup configuration](https://docs.cpanel.net/display/68Docs/Backup+Configuration#70704c1ed4aa4817b989519beca3f78d){:new_window}.
+3. Update the **Configuration Options** based on your backup preferences.
+   |Configuration Option|Entry|
+   |---|---|
+   |Backup Type|Remote FTP (Accounts Only)|
+   |Remote FTP Host|The host name for the NAS storage|
+   |FTP Backup User|The user name that is associated with the selected NAS|
+   |FTP Backup Password|The password that is associated with the selected NAS|
+   
+   For information about additional options, see cPanel's wiki for [backup configuration](https://docs.cpanel.net/display/68Docs/Backup+Configuration#70704c1ed4aa4817b989519beca3f78d){:new_window}.
 
 4. Click the **Save** button to save the configuration.
 
-5. Run the following script to test the configuration:<br/><br/>`/usr/local/cpanel/scripts/cpbackup`<br/><br/>**Note:** If the configuration was not updated as desired, repeat the steps above to update the configuration.
+5. Run the following script to test the configuration:
+
+   ```
+   /usr/local/cpanel/scripts/cpbackup
+   ```
+   {: pre}
+   
+   **Note** - If the configuration was not updated correctly, repeat the same steps.
