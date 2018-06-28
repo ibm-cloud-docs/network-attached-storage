@@ -5,7 +5,7 @@ lastupdated: "2018-06-28"
 ---
 {:note: .deprecated}
 
-# Network-attached storage - frequently asked questions
+# Network-attached storage - FAQ
 
 **Can NAS be used to store files from personal devices?**
 
