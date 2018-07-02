@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-28"
+lastupdated: "2018-07-02"
 ---
 {:pre: .pre}
 {:note: .deprecated}
