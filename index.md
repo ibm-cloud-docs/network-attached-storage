@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-28"
+lastupdated: "2018-07-02"
 ---
 {:note: .deprecated}
 {:new_window: target="_blank"}
@@ -19,8 +19,7 @@ How does the EOS impact you?
 
 Explore the [IBM Cloud storage solutions](https://www.ibm.com/cloud/storage) such as Block or File storage. They have both tiered and custom performance options up to 48,000 IOPS and capacity up to 12 TB. No matter your workloads, {{site.data.keyword.BluSoftlayer_full}} has an easily customizable and cost-effective storage environment for you.
 
-For more information or questions, contact sales or support.<br />
-(https://www.ibm.com/cloud-computing/bluemix/contact-us)
+For more information, contact [sales or support](https://www.ibm.com/cloud-computing/bluemix/contact-us).
 
 
 ## Viewing storage Information
