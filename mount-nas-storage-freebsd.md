@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-28"
+lastupdated: "2018-07-02"
 ---
 {:note: .deprecated}
  
@@ -11,12 +11,12 @@ Mounting your NAS Storage to a device that runs on FreeBSD can be done by using 
 
 ## Mount NAS Storage
 
-1. Create a folder in FreeBSD that will be used to mount NAS with the following command:
+1. Create a folder in FreeBSD to be used to mount NAS with the following command.
    ```
    mkdir /local/mountpoint
    ```
 
-2. Run the following command to mount the NAS:
+2. Run the following command to mount the NAS.
    ```
    mount_smbfs -I NASIP //username@NASIP/username /local/mountpoint
    ```
@@ -32,9 +32,9 @@ Mounting your NAS Storage to a device that runs on FreeBSD can be done by using 
    [root@freebsdnastest ~]#
    ```
 
-4. Set the NAS to mount on reboot with the following steps:
+4. Set the NAS to mount on reboot with the following steps.
 
-   - Add the following command to the `/etc/fstab` file:
+   - Add the following command to the `/etc/fstab` file.
      ```
      //username@NASIP/username /local/mountpoint smbfs rw,-N,-INASIP 0 0
      ```
