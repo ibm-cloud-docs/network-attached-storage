@@ -11,7 +11,7 @@ lastupdated: "2018-06-28"
 
 You can map NAS storage in Windows either in the command line or through point-and-click interaction in the File Explorer.
 
-# Mapping the Storage through the command prompt
+## Mapping the Storage through the command prompt
 
 If you want to map to LockBox through the command prompt, enter the following command.
    ```
