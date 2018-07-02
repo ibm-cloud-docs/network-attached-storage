@@ -11,8 +11,6 @@ lastupdated: "2018-07-02"
 
 You can use NAS with cPanel and WHM for your backups. You can load data through File Transfer Protocol (FTP) to your NAS storage device. Follow these steps to configure FTP for your NAS within cPanel and WHM.
 
-## Configuring FTP
-
 1. Log in to WHM with your unique credentials.
 
 2. On the **Home** screen, select **Configure Backup** from the **Backup** menu.
