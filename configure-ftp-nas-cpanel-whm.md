@@ -17,12 +17,28 @@ You can use NAS with cPanel and WHM for your backups. You can load data through 
 
 3. Update the **Configuration Options** based on your backup preferences.
 
- | Configuration Option | Entry |
- | -------------------- | ----- |
- | `Backup Type` | Remote FTP (Accounts Only) |
- | `Remote FTP Host` | The host name for the NAS storage |
- | `FTP Backup User` | The user name that is associated with the selected NAS |
- | `FTP Backup Password` |The password that is associated with the selected NAS |
+  <table>
+  <tr>
+    <th>Configuration Option</th>
+    <th>Entry</th>
+  </tr>
+  <tr>
+    <td>Backup Type</td>
+    <td>Remote FTP (Accounts Only)</td>
+  </tr>
+  <tr>
+    <td>Remote FTP Host</td>
+    <td>The host name for the NAS storage</td>
+  </tr>
+  <tr>
+    <td>FTP Backup User</td>
+    <td>The host name for the NAS storage</td>
+  </tr>
+  <tr>
+    <td>FTP Backup Password</td>
+    <td>The password that is associated with the selected NAS.</td>
+  </tr>
+  </table>
    
    For more information about configuration options, see [cPanel's wiki](https://docs.cpanel.net/display/68Docs/Backup+Configuration#70704c1ed4aa4817b989519beca3f78d){:new_window}.
 
