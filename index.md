@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-07-17"
 ---
 {:note: .deprecated}
 {:new_window: target="_blank"}
@@ -21,8 +21,21 @@ Explore the [IBM Cloud storage solutions](https://www.ibm.com/cloud/storage) suc
 
 For more information, contact [sales or support](https://www.ibm.com/cloud-computing/bluemix/contact-us).
 
+## Using alternatives for NAS FTP storage
 
-## Viewing storage Information
+* {{site.data.keyword.filestorage_full}}
+  - [Configuring {{site.data.keyword.filestorage_short}} for backup with cPanel](https://console.bluemix.net/docs/infrastructure/FileStorage/configure-backup-cpanel.html)
+  - [Configuring {{site.data.keyword.filestorage_short}} for backup with Plesk](https://console.bluemix.net/docs/infrastructure/FileStorage/configure-backup-plesk.html)
+
+* {{site.data.keyword.blockstoragefull}}
+  - [Configuring {{site.data.keyword.blockstorageshort}} for backup with cPanel](https://console.bluemix.net/docs/infrastructure/BlockStorage/configure-backup-cpanel.html)
+  - [Configuring {{site.data.keyword.blockstorageshort}} for backup with Plesk](https://console.bluemix.net/docs/infrastructure/BlockStorage/configure-backup-plesk.html)
+
+* {{site.data.keyword.cos_full}}
+  - [Mounting {{site.data.keyword.cos_short}} with s3fuse](configure-cos-s3fuse.html)
+
+
+## Viewing NAS FTP storage Information
 
 Storage details of your File Storage (NAS) service can be viewed in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} at any time. You can view details such as password, storage address, and usage.
 

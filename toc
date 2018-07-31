@@ -9,8 +9,18 @@ IBM Cloud Storage - Network Attached Storage
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    configure-ftp-nas-cpanel-whm.md
-    connect-nas-storage-windows.md
-    mount-nas-storage-freebsd.md
-    mount-nas-storage-linux.md
-    {: .navgroup-end}
+    {: .topicgroup}
+    Working with NAS FTP
+        configure-ftp-nas-cpanel-whm.md
+        connect-nas-storage-windows.md
+        mount-nas-storage-freebsd.md
+        mount-nas-storage-linux.md
+        
+    {: .topicgroup}
+    Migrating to alternative storage solutions
+        [Configuring File Storage for Backup with cPanel](https://console.bluemix.net/docs/infrastructure/FileStorage/configure-backup-cpanel.html)
+        [Configuring File Storage for Backup with Plesk](https://console.bluemix.net/docs/infrastructure/FileStorage/configure-backup-plesk.html)
+        [Configuring Block Storage for Backup with cPanel](https://console.bluemix.net/docs/infrastructure/BlockStorage/configure-backup-cpanel.html)
+        [Configuring Block Storage for Backup with Plesk](https://console.bluemix.net/docs/infrastructure/BlockStorage/configure-backup-plesk.html)
+        configure-cos-s3fuse.md 
+   {: .navgroup-end}
