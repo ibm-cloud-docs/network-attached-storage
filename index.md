@@ -1,23 +1,16 @@
 ---
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-17"
+lastupdated: "2018-08-20"
 ---
 {:note: .deprecated}
 {:new_window: target="_blank"}
 
 # Getting Started with NAS
 
-NAS stands for network-attached storage. NAS was an earlier storage option for users who were looking for a solution similar to the LockBox storage but with more space. NAS allows for remote file storage directly from the server by using either command line/terminal interactions or through point-and-click interactions. In addition to direct interaction with NAS from your server, you can also use Plesk or cPanel with File Transfer Protocol (FTP) to transfer files to NAS. FTP is complimentary with any NAS service, and NAS was offered at a nominal monthly fee based on the amount of storage.
+NAS stands for network-attached storage. NAS was an earlier storage option for users who were looking for a solution similar to the LockBox storage but with more space. IBM Cloud ended the sales (EOS) of NAS FTP storage services across all sales channels on **March 31, 2018**. End of Support commenced on **August 16, 2018**.
 
-IBM Cloud ended the sales (EOS) of NAS FTP storage services across all sales channels on **March 31, 2018**.
-
-How does the EOS impact you?
-
-- New customers can't buy NAS FTP storage after **March 31, 2018**.
-- Existing customers can continue to use their NAS FTP storage after **March 31, 2018**, but can't provision more NAS FTP storage.
-
-Explore the [IBM Cloud storage solutions](https://www.ibm.com/cloud/storage) such as Block or File storage. They have both tiered and custom performance options up to 48,000 IOPS and capacity up to 12 TB. No matter your workloads, {{site.data.keyword.BluSoftlayer_full}} has an easily customizable and cost-effective storage environment for you.
+Customers can no longer provision this storage and are urged to migrate their data to another Storage offering such as Block or File storage. For more information, see the [IBM Cloud storage solutions](https://www.ibm.com/cloud/storage). They have both tiered and custom performance options up to 48,000 IOPS and capacity up to 12 TB. No matter your workloads, {{site.data.keyword.BluSoftlayer_full}} has an easily customizable and cost-effective storage environment for you.
 
 For more information, contact [sales or support](https://www.ibm.com/cloud-computing/bluemix/contact-us).
 
