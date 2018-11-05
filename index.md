@@ -3,16 +3,17 @@ copyright:
   years: 1994, 2018
 lastupdated: "2018-08-20"
 ---
-{:note: .deprecated}
+{:deprecated: .deprecated}
 {:new_window: target="_blank"}
 
 # Getting Started with NAS
 
 NAS stands for network-attached storage. NAS was an earlier storage option for users who were looking for a solution similar to the LockBox storage but with more space. IBM Cloud ended the sales (EOS) of NAS FTP storage services across all sales channels on **March 31, 2018**. End of Support commenced on **August 16, 2018**.
 
-Customers can no longer provision this storage and are urged to migrate their data to another Storage offering such as Block or File storage. For more information, see the [IBM Cloud storage solutions](https://www.ibm.com/cloud/storage). They have both tiered and custom performance options up to 48,000 IOPS and capacity up to 12 TB. No matter your workloads, {{site.data.keyword.BluSoftlayer_full}} has an easily customizable and cost-effective storage environment for you.
+**This service is deprecated**: All instances of this service are deprecated. For more information, contact [sales or support](https://www.ibm.com/cloud-computing/bluemix/contact-us).
+{:deprecated}
 
-For more information, contact [sales or support](https://www.ibm.com/cloud-computing/bluemix/contact-us).
+Customers can no longer provision this storage and are urged to migrate their data to another Storage offering such as Block or File storage. For more information, see the [IBM Cloud storage solutions](https://www.ibm.com/cloud/storage). They have both tiered and custom performance options up to 48,000 IOPS and capacity up to 12 TB. No matter your workloads, {{site.data.keyword.BluSoftlayer_full}} has an easily customizable and cost-effective storage environment for you.
 
 ## Using alternatives for NAS FTP storage
 

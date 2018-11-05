@@ -1,13 +1,16 @@
 ---
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-28"
+lastupdated: "2018-08-16"
 ---
 {:pre: .pre}
-{:note: .deprecated}
+{:deprecated: .deprecated}
 
 
 # Mounting NAS Storage in Linux
+
+**This service is deprecated**: All instances of this service are deprecated. For more information, contact [sales or support](https://www.ibm.com/cloud-computing/bluemix/contact-us).
+{:deprecated}
 
 Mounting your NAS Storage to a device that runs on a Linux-based Operating System can be done by using a series of simple commands in the shell or terminal within the OS. You can use these steps to mount NAS Storage on any of the following operating systems:
 

@@ -1,11 +1,14 @@
 ---
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-08-16"
 ---
-{:note: .deprecated}
+{:deprecated: .deprecated}
  
 # Mounting NAS Storage in FreeBSD
+
+**This service is deprecated**: All instances of this service are deprecated. For more information, contact [sales or support](https://www.ibm.com/cloud-computing/bluemix/contact-us).
+{:deprecated}
 
 Mounting your NAS Storage to a device that runs on FreeBSD can be done by using a series of simple commands in the command line.
 
