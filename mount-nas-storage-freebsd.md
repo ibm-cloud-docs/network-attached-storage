@@ -20,7 +20,7 @@ All instances of this service are deprecated. For more information, contact [sal
 
 Mounting your NAS Storage to a device that runs on FreeBSD can be done by using a series of simple commands in the command line.
 
-1. Create a folder in FreeBSD to be used to mount NAS with the following command.
+1. Create a folder with the following command.
    ```
    mkdir /local/mountpoint
    ```

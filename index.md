@@ -43,7 +43,7 @@ Storage details of your File Storage (NAS) service can be viewed in the [{{site.
 
 ## Changing the password for a NAS storage service
 
-Each NAS storage service has a password that is used to access the NAS service in the command line/prompt of your operating system.
+Each NAS storage service has a password that is used to access the NAS service in the command line or prompt of your operating system.
 
 For many of the {{site.data.keyword.BluSoftlayer_full}} products and services, the password storage feature within the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} is used solely for storage or tracking of the password. However, the changes that are made to the NAS password within the {{site.data.keyword.slportal}} are also made to the service itself. When you change your password, keep in mind that the change impacts your service directly.
 

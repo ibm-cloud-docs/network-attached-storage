@@ -18,6 +18,10 @@ lastupdated: "2018-11-30"
 You might want to use {{site.data.keyword.cos_full}} for various reasons. One of them is the ability to store or backup data in a different data center, other than the one where your server is located. For more information about {{site.data.keyword.cos_short}}, see [About {{site.data.keyword.cos_full_notm}}](https://console.bluemix.net/docs/services/cloud-object-storage/about-cos.html)
 
 You can use the `s3fs-fuse`utility in Linux and Mac OS X to mount an {{site.data.keyword.cos_short}} bucket through FUSE. `s3fs` preserves the original object format for files. For more information about `s3fs-fuse`, see the [S3sf Wiki ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/s3fs-fuse/s3fs-fuse/wiki/FAQ).
+{:tip}
+
+Linux is a registered trademark of Linus Torvalds in the United States, other countries, or both.
+{:tip}
 
 1. Update the OS.
    - RHEL and CentOS
@@ -64,7 +68,7 @@ You can use the `s3fs-fuse`utility in Linux and Mac OS X to mount an {{site.data
    ```
    {: pre}
 
-5. Start building the source.
+5. Build the source.
    ```
    ./autogen.sh
    ```
@@ -118,7 +122,7 @@ You can use the `s3fs-fuse`utility in Linux and Mac OS X to mount an {{site.data
    ```
    {: pre}
 
-9. Start s3fs fuse. Use the endpoint that corresponds to the location of the bucket that is used. The following example uses the US Cross Region service, public endpoint, and the bucket ‘s3fss3fusetest’. The bucket must already exist in your {{site.data.keyword.cos_short}}.
+9. Start s3fs fuse. Use the endpoint that corresponds to the location of the bucket that is used. The following example uses the US Cross Region service, public endpoint, and the bucket ‘s3fss3fusetest’. The bucket must exist in your {{site.data.keyword.cos_short}}.
 
    You can find endpoint and bucket information in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. For more information, see [Select regions and endpoints](https://{DomainName}/docs/services/cloud-object-storage/basics/endpoints.html){:new_window} and [Creating buckets to store your data](https://{DomainName}/docs/services/cloud-object-storage/getting-started.html#create-buckets){:new_window}.
    {:tip}

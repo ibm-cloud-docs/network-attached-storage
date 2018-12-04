@@ -26,11 +26,14 @@ Mounting your NAS Storage to a device that runs on a Linux-based Operating Syste
 * Debian
 * Ubuntu
 
+Linux is a registered trademark of Linus Torvalds in the United States, other countries, or both.
+{:tip}
+
 Most of the steps apply to all of the listed Linux operating systems. However, the commands that are required to determine whether the CIFS utility is installed on Debian and Ubuntu are unique. Select the steps that are appropriate for the device's current OS.
 
 ## Mounting NAS storage
 
-1. Determine whether the OS on the device is RedHat Enterprise Linux, CentOS, or CloudLinux **OR** Debian or Ubuntu.
+1. Determine whether the OS on the device is RHEL, CentOS, or CloudLinux **OR** Debian or Ubuntu.
    - If the OS is RHEL, CentOS or CloudLinux, determine whether the <code>cifs-utils</code> utility is installed.
      ```
      root@sllockboxtest [~]# rpm -q cifs-utils
@@ -96,7 +99,3 @@ Most of the steps apply to all of the listed Linux operating systems. However, t
    - If you don't want the storage to be mounted on restart, then go to the next step.
 
 4. Verify that the `fstab` was edited correctly by unmounting and mounting the storage.
-
-
-Linux is a registered trademark of Linus Torvalds in the United States, other countries, or both.
-{:tip}
