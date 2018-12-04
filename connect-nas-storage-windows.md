@@ -1,15 +1,21 @@
 ---
+
 copyright:
   years: 1994, 2018
-lastupdated: "2018-08-16"
+lastupdated: "2018-11-30"
+
 ---
-{:pre: .pre}
 {:deprecated: .deprecated}
+{:DomainName: data-hd-keyref="APPDomain"}
+{:DomainName: data-hd-keyref="DomainName"}
 {:new_window: target="_blank"}
+{:new_window: target="_blank"}
+{:pre: .pre}
+{:tip: .tip}
 
 # Connecting to NAS Storage in Windows
 
-**This service is deprecated**: All instances of this service are deprecated. For more information, contact [sales or support](https://www.ibm.com/cloud-computing/bluemix/contact-us).
+All instances of this service are deprecated. For more information, contact [sales or support](https://www.ibm.com/cloud-computing/bluemix/contact-us).
 {:deprecated}
 
 You can map NAS storage in Windows either in the command line or through point-and-click interaction in the File Explorer.
