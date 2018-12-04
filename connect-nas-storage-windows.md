@@ -25,7 +25,7 @@ Microsoft, Windows, Windows NT, and the Windows logo are trademarks of Microsoft
 
 ## Mapping the Storage through the command prompt
 
-If you want to map to LockBox through the command prompt, enter the following command.
+If you want to map to the storage through the command prompt, enter the following command.
    ```
    net use {drive letter}: \\Hostname\Username /u:username password
    ```
