@@ -12,10 +12,10 @@ lastupdated: "2018-11-30"
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:tip: .tip}
- 
+
 # Mounting NAS Storage in FreeBSD
 
-All instances of this service are deprecated. For more information, contact [sales or support](https://www.ibm.com/cloud-computing/bluemix/contact-us).
+All instances of this service are deprecated. For more information, contact [sales or support ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud-computing/bluemix/contact-us).
 {:deprecated}
 
 Mounting your NAS Storage to a device that runs on FreeBSD can be done by using a series of simple commands in the command line.
@@ -33,7 +33,7 @@ Mounting your NAS Storage to a device that runs on FreeBSD can be done by using 
 3. Enter the NAS password when you are prompted.
 
    **Example**
-   
+
    ```
    [root@freebsdnastest ~]# mkdir /mnt/nas
    [root@freebsdnastest ~]# mount_smbfs -I 10.0.78.87 //SL12345-1@10.0.78.87/SL12345-1 /mnt/nas
@@ -47,7 +47,7 @@ Mounting your NAS Storage to a device that runs on FreeBSD can be done by using 
      ```
      //username@NASIP/username /local/mountpoint smbfs rw,-N,-INASIP 0 0
      ```
-     
+
      **Example `/etc/fstab` output**
      ```
      [root@freebsdnastest ~]# cat /etc/fstab
@@ -74,15 +74,15 @@ Mounting your NAS Storage to a device that runs on FreeBSD can be done by using 
 
 5. Unmount and mount the NAS to verify that it is configured properly.
    1. Unmount the storage.
-   
+
       ```
       [root@freebsdnastest ~]# df -Th /mnt/nas/
       Filesystem   Type    Size    Used   Avail Capacity  Mounted on
       /dev/ada0p2  ufs       1G    624M    302M    67%    /  
       ```
-      
+
    2. Mount the storage.
-      
+
       ```
       root@freebsdnastest ~]# df -Th /mnt/nas/
       Filesystem                          Type     Size    Used   Avail Capacity  Mounted on

@@ -15,7 +15,7 @@ lastupdated: "2018-11-30"
 
 # Connecting to NAS Storage in Windows
 
-All instances of this service are deprecated. For more information, contact [sales or support](https://www.ibm.com/cloud-computing/bluemix/contact-us).
+All instances of this service are deprecated. For more information, contact [sales or support ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud-computing/bluemix/contact-us).
 {:deprecated}
 
 You can map NAS storage in Windows either in the command line or through point-and-click interaction in the File Explorer.
@@ -27,7 +27,7 @@ If you want to map to LockBox through the command prompt, enter the following co
    net use {drive letter}: \\Hostname\Username /u:username password
    ```
    {: pre}
-   
+
    Example
    ```
    net use z: \\nas0X.service.softlayer.com\auser /u:auser apass
@@ -46,3 +46,6 @@ If you want to map to LockBox through the command prompt, enter the following co
   * Enter the NAS user name in the **User name** field.
   * Enter the NAS password in the **Password** field.
   * Click **OK**
+
+Microsoft, Windows, Windows NT, and the Windows logo are trademarks of Microsoft Corporation in the United States, other countries, or both.
+{:tip}

@@ -14,10 +14,10 @@ lastupdated: "2018-11-30"
 
 NAS stands for network-attached storage. NAS was an earlier storage option for users who were looking for a solution similar to the LockBox storage but with more space. IBM Cloud ended the sales (EOS) of NAS FTP storage services across all sales channels on **31 March 31 2018**. End of Support commenced on **16 August 16 2018**.
 
-All instances of this service are deprecated. For more information, contact [sales or support](https://www.ibm.com/cloud-computing/bluemix/contact-us).
+All instances of this service are deprecated. For more information, contact [sales or support ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud-computing/bluemix/contact-us).
 {:deprecated}
 
-Customers can no longer provision this storage and are urged to migrate their data to another Storage offering such as Block or File storage. For more information, see the [IBM Cloud storage solutions](https://www.ibm.com/cloud/storage). They have both tiered and custom performance options up to 48,000 IOPS and capacity up to 12 TB. No matter your workloads, {{site.data.keyword.BluSoftlayer_full}} has an easily customizable and cost-effective storage environment for you.
+Customers can no longer provision this storage and are urged to migrate their data to another Storage offering such as Block or File storage. For more information, see the [IBM Cloud storage solutions ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/storage). They have both tiered and custom performance options up to 48,000 IOPS and capacity up to 12 TB. No matter your workloads, {{site.data.keyword.BluSoftlayer_full}} has an easily customizable and cost-effective storage environment for you.
 
 ## Using alternatives for NAS FTP storage
 
@@ -35,9 +35,9 @@ Customers can no longer provision this storage and are urged to migrate their da
 
 ## Viewing NAS FTP storage Information
 
-Storage details of your File Storage (NAS) service can be viewed in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} at any time. You can view details such as password, storage address, and usage.
+Storage details of your File Storage (NAS) service can be viewed in the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} at any time. You can view details such as password, storage address, and usage.
 
-1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} with your unique credentials.
+1. Log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} with your unique credentials.
 2. Select **Storage > File Storage** from the navigation bar to access the NAS screen.
 2. Click anywhere on the row of the NAS to view its storage details.
 
@@ -45,11 +45,11 @@ Storage details of your File Storage (NAS) service can be viewed in the [{{site.
 
 Each NAS storage service has a password that is used to access the NAS service in the command line/prompt of your operating system.
 
-For many of the {{site.data.keyword.BluSoftlayer_full}} products and services, the password storage feature within the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} is used solely for storage or tracking of the password. However, the changes that are made to the NAS password within the {{site.data.keyword.slportal}} are also made to the service itself. When you change your password, keep in mind that the change impacts your service directly.
+For many of the {{site.data.keyword.BluSoftlayer_full}} products and services, the password storage feature within the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} is used solely for storage or tracking of the password. However, the changes that are made to the NAS password within the {{site.data.keyword.slportal}} are also made to the service itself. When you change your password, keep in mind that the change impacts your service directly.
 
 Follow these steps to change a NAS password in the {{site.data.keyword.slportal}}.
 
-1. Access the NAS Storage screen on the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
+1. Access the NAS Storage screen on the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
 2. Click anywhere on the row for the NAS storage to expand the view.
 3. Click **Show** next to the **Password** field to view your current password.
 4. Enter the new password in the **Password** field.
