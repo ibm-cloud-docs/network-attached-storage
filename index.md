@@ -2,10 +2,12 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-08-20"
+lastupdated: "2018-11-30"
 
 ---
 {:deprecated: .deprecated}
+{:DomainName: data-hd-keyref="APPDomain"}
+{:DomainName: data-hd-keyref="DomainName"}
 {:new_window: target="_blank"}
 
 # Getting Started with NAS
@@ -20,12 +22,12 @@ Customers can no longer provision this storage and are urged to migrate their da
 ## Using alternatives for NAS FTP storage
 
 * {{site.data.keyword.filestorage_full}}
-  - [Configuring {{site.data.keyword.filestorage_short}} for backup with cPanel](https://console.bluemix.net/docs/infrastructure/FileStorage/configure-backup-cpanel.html)
-  - [Configuring {{site.data.keyword.filestorage_short}} for backup with Plesk](https://console.bluemix.net/docs/infrastructure/FileStorage/configure-backup-plesk.html)
+  - [Configuring {{site.data.keyword.filestorage_short}} for backup with cPanel](https://{DomainName}docs/infrastructure/FileStorage/configure-backup-cpanel.html)
+  - [Configuring {{site.data.keyword.filestorage_short}} for backup with Plesk](https://{DomainName}/docs/infrastructure/FileStorage/configure-backup-plesk.html)
 
 * {{site.data.keyword.blockstoragefull}}
-  - [Configuring {{site.data.keyword.blockstorageshort}} for backup with cPanel](https://console.bluemix.net/docs/infrastructure/BlockStorage/configure-backup-cpanel.html)
-  - [Configuring {{site.data.keyword.blockstorageshort}} for backup with Plesk](https://console.bluemix.net/docs/infrastructure/BlockStorage/configure-backup-plesk.html)
+  - [Configuring {{site.data.keyword.blockstorageshort}} for backup with cPanel](https://{DomainName}/docs/infrastructure/BlockStorage/configure-backup-cpanel.html)
+  - [Configuring {{site.data.keyword.blockstorageshort}} for backup with Plesk](https://{DomainName}/docs/infrastructure/BlockStorage/configure-backup-plesk.html)
 
 * {{site.data.keyword.cos_full}}
   - [Mounting {{site.data.keyword.cos_short}} with s3fuse](configure-cos-s3fuse.html)
