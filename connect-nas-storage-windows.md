@@ -15,13 +15,13 @@ lastupdated: "2018-11-30"
 
 # Connecting to NAS Storage in Windows
 
+Microsoft, Windows, Windows NT, and the Windows logo are trademarks of Microsoft Corporation in the United States, other countries, or both.
+{:tip}
+
 All instances of this service are deprecated. For more information, contact [sales or support ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud-computing/bluemix/contact-us).
 {:deprecated}
 
-You can map NAS storage in Windows either in the command line or through point-and-click interaction in the File Explorer.
-
-Microsoft, Windows, Windows NT, and the Windows logo are trademarks of Microsoft Corporation in the United States, other countries, or both.
-{:tip}
+You can map to the NAS storage either in the command line or through point-and-click interaction in the File Explorer.
 
 ## Mapping the Storage through the command prompt
 
