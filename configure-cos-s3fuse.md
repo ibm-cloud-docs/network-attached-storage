@@ -1,10 +1,14 @@
 ---
 
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-07-31"
+  years: 1994, 2018
+lastupdated: "2018-11-30"
 
 ---
+{:deprecated: .deprecated}
+{:DomainName: data-hd-keyref="APPDomain"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:new_window: target="_blank"}
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:tip: .tip}
@@ -16,39 +20,39 @@ You might want to use {{site.data.keyword.cos_full}} for various reasons. One of
 You can use the `s3fs-fuse`utility in Linux and Mac OS X to mount an {{site.data.keyword.cos_short}} bucket through FUSE. `s3fs` preserves the original object format for files. For more information about `s3fs-fuse`, see the [S3sf Wiki](https://github.com/s3fs-fuse/s3fs-fuse/wiki/FAQ).
 
 1. Update the OS.
-   - RHEL/CentOS
+   - RHEL and CentOS
      ```
      yum -y update
      ```
      {: pre}
      
-   - Debian/Ubuntu
+   - Debian and Ubuntu
      ```
      apt-get upgrade
      ```
      {: pre}
    
 2. Install dependencies.
-   - RHEL/CentOS
+   - RHEL and CentOS
      ```
      yum -y install automake fuse fuse-devel gcc-c++ git libcurl-devel libxml2-devel make openssl-devel
      ```
      {: pre}
      
-   - Debian/Ubuntu
+   - Debian and Ubuntu
      ```
      apt-get install automake autotools-dev fuse g++ git libcurl4-openssl-dev libfuse-dev libssl-dev libxml2-dev make pkg-config
      ```
      {: pre}
      
 3. Install s3fs-fuse.
-   - RHEL/CentOS
+   - RHEL and CentOS
      ```
      git clone https://github.com/s3fs-fuse/s3fs-fuse.git
      ```
      {: pre}
       
-   - Debian/Ubuntu 
+   - Debian and Ubuntu 
      ```
      apt-get install s3fs
      ```
@@ -94,7 +98,9 @@ You can use the `s3fs-fuse`utility in Linux and Mac OS X to mount an {{site.data
      {: pre}
    - You can also use `vi(m)` or `nano` to create the file.<br>
    
-     **Note** - You can get the `Access Key ID` and `Secret Access Key` from the {{site.data.keyword.BluSoftlayer_full}} console.
+     You can get the `Access Key ID` and `Secret Access Key` from the {{site.data.keyword.BluSoftlayer_full}} console.
+     {:tip}
+     
      1. Click your {{site.data.keyword.cos_full_notm}} instance.
      2. In the navigation panel, click **Service Credentials**.
      3. Click **New credential** to generate credential information.
@@ -112,8 +118,9 @@ You can use the `s3fs-fuse`utility in Linux and Mac OS X to mount an {{site.data
    ```
    {: pre}
 
-9. Start s3fs fuse. Use the endpoint that corresponds to the location of the bucket that is used. The following example uses the US Cross Region service, public endpoint, and the bucket ‘s3fss3fusetest’. The bucket must already exist in your {{site.data.keyword.cos_short}}.<br>
-   **Note** - You can find endpoint and bucket information in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. For more information, see [Select regions and endpoints](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html){:new_window} and [Creating buckets to store your data](https://console.bluemix.net/docs/services/cloud-object-storage/getting-started.html#create-buckets){:new_window}.
+9. Start s3fs fuse. Use the endpoint that corresponds to the location of the bucket that is used. The following example uses the US Cross Region service, public endpoint, and the bucket ‘s3fss3fusetest’. The bucket must already exist in your {{site.data.keyword.cos_short}}.
+
+   You can find endpoint and bucket information in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. For more information, see [Select regions and endpoints](https://{DomainName}/docs/services/cloud-object-storage/basics/endpoints.html){:new_window} and [Creating buckets to store your data](https://{DomainName}/docs/services/cloud-object-storage/getting-started.html#create-buckets){:new_window}.
    {:tip}
 
    Syntax
@@ -128,7 +135,8 @@ You can use the `s3fs-fuse`utility in Linux and Mac OS X to mount an {{site.data
    ```
    {: pre}
    
-   **Note** - Since `-o dbglevel=info` was used, you can check `/var/log/messages` for s3fs entries. These logs help with debugging when something isn't working correctly.
+   Since `-o dbglevel=info` was used, you can check `/var/log/messages` for s3fs entries. These logs help with debugging when something isn't working correctly.
+   {:tip}
    
 10. Use `df -h` to verify that the {{site.data.keyword.cos_short}} is mounted.
 
