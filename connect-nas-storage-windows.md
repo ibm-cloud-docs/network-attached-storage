@@ -9,7 +9,6 @@ lastupdated: "2018-11-30"
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 {:new_window: target="_blank"}
-{:new_window: target="_blank"}
 {:pre: .pre}
 {:tip: .tip}
 
