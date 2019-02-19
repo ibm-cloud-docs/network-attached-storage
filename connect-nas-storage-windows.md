@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-11-30"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:deprecated: .deprecated}
@@ -13,6 +13,7 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 
 # Connecting to NAS Storage in Windows
+{: #mapNASWindows}
 
 Microsoft, Windows, Windows NT, and the Windows logo are trademarks of Microsoft Corporation in the United States, other countries, or both.
 {:tip}

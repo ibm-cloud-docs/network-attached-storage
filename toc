@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="network-attached-storage" audience="services" href="/docs/infrastructure/network-attached-storage/index.html" path="infrastructure/network-attached-storage"}
+{: .toc subcollection="network-attached-storage" audience="services" href="/docs/infrastructure/network-attached-storage?topic=network-attached-storage-GettingStarted" path="infrastructure/network-attached-storage"}
 IBM Cloud Storage - Network Attached Storage
 
     {: .navgroup id="learn"}
@@ -15,12 +15,12 @@ IBM Cloud Storage - Network Attached Storage
         connect-nas-storage-windows.md
         mount-nas-storage-freebsd.md
         mount-nas-storage-linux.md
-        
+
     {: .topicgroup}
     Migrating to alternative storage solutions
-        [Configuring File Storage for Backup with cPanel](https://console.bluemix.net/docs/infrastructure/FileStorage/configure-backup-cpanel.html)
-        [Configuring File Storage for Backup with Plesk](https://console.bluemix.net/docs/infrastructure/FileStorage/configure-backup-plesk.html)
-        [Configuring Block Storage for Backup with cPanel](https://console.bluemix.net/docs/infrastructure/BlockStorage/configure-backup-cpanel.html)
-        [Configuring Block Storage for Backup with Plesk](https://console.bluemix.net/docs/infrastructure/BlockStorage/configure-backup-plesk.html)
-        configure-cos-s3fuse.md 
+        [Configuring File Storage for Backup with cPanel](https://cloud.ibm.com/docs/infrastructure/FileStorage?topic=FileStorage-cPanelBackups)
+        [Configuring File Storage for Backup with Plesk](https://cloud.ibm.com/docs/infrastructure/FileStorage?topic=FileStorage-PleskBackup)
+        [Configuring Block Storage for Backup with cPanel](https://cloud.ibm.com/docs/infrastructure/BlockStorage?topic=BlockStorage-cPanelBackups)
+        [Configuring Block Storage for Backup with Plesk](https://cloud.ibm.com/docs/infrastructure/BlockStorage?topic=BlockStorage-PleskBackups)
+        configure-cos-s3fuse.md
    {: .navgroup-end}

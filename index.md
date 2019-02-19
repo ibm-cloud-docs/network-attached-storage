@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-11-30"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:deprecated: .deprecated}
@@ -11,6 +11,7 @@ lastupdated: "2018-11-30"
 {:new_window: target="_blank"}
 
 # Getting Started with NAS
+{: #GettingStarted}
 
 NAS stands for network-attached storage. NAS was an earlier storage option for users who were looking for a solution similar to the LockBox storage but with more space. IBM Cloud ended the sales (EOS) of NAS FTP storage services across all sales channels on **31 March 31 2018**. End of Support commenced on **16 August 16 2018**.
 
@@ -22,15 +23,15 @@ Customers can no longer provision this storage and are urged to migrate their da
 ## Using alternatives for NAS FTP storage
 
 * {{site.data.keyword.filestorage_full}}
-  - [Configuring {{site.data.keyword.filestorage_short}} for backup with cPanel](https://{DomainName}docs/infrastructure/FileStorage/configure-backup-cpanel.html)
-  - [Configuring {{site.data.keyword.filestorage_short}} for backup with Plesk](https://{DomainName}/docs/infrastructure/FileStorage/configure-backup-plesk.html)
+  - [Configuring {{site.data.keyword.filestorage_short}} for backup with cPanel](/docs/infrastructure/FileStorage/migrate-file-storage-encrypted-file-storage.htm?topic=FileStorage-cPanelBackups)
+  - [Configuring {{site.data.keyword.filestorage_short}} for backup with Plesk](/docs/infrastructure/FileStorage/migrate-file-storage-encrypted-file-storage.htm?topic=FileStorage-PleskBackup)
 
 * {{site.data.keyword.blockstoragefull}}
-  - [Configuring {{site.data.keyword.blockstorageshort}} for backup with cPanel](https://{DomainName}/docs/infrastructure/BlockStorage/configure-backup-cpanel.html)
-  - [Configuring {{site.data.keyword.blockstorageshort}} for backup with Plesk](https://{DomainName}/docs/infrastructure/BlockStorage/configure-backup-plesk.html)
+  - [Configuring {{site.data.keyword.blockstorageshort}} for backup with cPanel](/docs/infrastructure/BlockStorage?topic=BlockStorage-cPanelBackups)
+  - [Configuring {{site.data.keyword.blockstorageshort}} for backup with Plesk](/docs/infrastructure/BlockStorage?topic=BlockStorage-PleskBackups)
 
 * {{site.data.keyword.cos_full}}
-  - [Mounting {{site.data.keyword.cos_short}} with s3fuse](configure-cos-s3fuse.html)
+  - [Mounting {{site.data.keyword.cos_short}} with s3fuse](/docs/infrastructure/network-attached-storage?topic=network-attached-storage-MountCOSs3fuse)
 
 
 ## Viewing NAS FTP storage Information

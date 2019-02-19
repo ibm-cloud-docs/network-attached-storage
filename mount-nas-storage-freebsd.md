@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-11-30"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:deprecated: .deprecated}
@@ -14,6 +14,7 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 
 # Mounting NAS Storage in FreeBSD
+{: #mountNASFreeBSD}
 
 All instances of this service are deprecated. For more information, contact [sales or support ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud-computing/bluemix/contact-us).
 {:deprecated}
