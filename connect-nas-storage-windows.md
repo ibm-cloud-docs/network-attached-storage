@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: network-attached-storage
+
 ---
 {:deprecated: .deprecated}
 {:DomainName: data-hd-keyref="APPDomain"}
