@@ -5,7 +5,7 @@
 IBM Cloud Storage - Network Attached Storage
 
     {: .navgroup id="learn"}
-    index.md
+    getting-started.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
