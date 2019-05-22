@@ -12,15 +12,15 @@ subcollection: network-attached-storage
 {:deprecated: .deprecated}
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
-{:new_window: target="_blank"}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:tip: .tip}
 
 # Mounting NAS Storage in FreeBSD
 {: #mountNASFreeBSD}
 
-All instances of this service are deprecated. For more information, contact [sales or support ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud-computing/bluemix/contact-us).
+All instances of this service are deprecated. For more information, contact [sales or support](https://www.ibm.com/cloud-computing/bluemix/contact-us).
 {:deprecated}
 
 Mounting your NAS Storage to a device that runs on FreeBSD can be done by using a series of simple commands in the command line.

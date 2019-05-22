@@ -12,7 +12,7 @@ subcollection: network-attached-storage
 {:deprecated: .deprecated}
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:tip: .tip}
 
@@ -22,7 +22,7 @@ subcollection: network-attached-storage
 Microsoft, Windows, Windows NT, and the Windows logo are trademarks of Microsoft Corporation in the United States, other countries, or both.
 {:tip}
 
-All instances of this service are deprecated. For more information, contact [sales or support ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud-computing/bluemix/contact-us).
+All instances of this service are deprecated. For more information, contact [sales or support](https://www.ibm.com/cloud-computing/bluemix/contact-us).
 {:deprecated}
 
 You can map to the NAS storage either in the command line or through point-and-click interaction in the File Explorer.

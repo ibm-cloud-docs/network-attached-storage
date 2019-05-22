@@ -12,7 +12,7 @@ subcollection: network-attached-storage
 {:deprecated: .deprecated}
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:tip: .tip}
 
@@ -21,7 +21,7 @@ subcollection: network-attached-storage
 
 You might want to use {{site.data.keyword.cos_full}} for various reasons. One of them is the ability to store or backup data in a different data center, other than the one where your server is located. For more information about {{site.data.keyword.cos_short}}, see [About {{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage)
 
-You can use the `s3fs-fuse`utility in Linux and Mac OS X to mount an {{site.data.keyword.cos_short}} bucket through FUSE. `s3fs` preserves the original object format for files. For more information about `s3fs-fuse`, see the [S3sf Wiki ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/s3fs-fuse/s3fs-fuse/wiki/FAQ).
+You can use the `s3fs-fuse`utility in Linux and Mac OS X to mount an {{site.data.keyword.cos_short}} bucket through FUSE. `s3fs` preserves the original object format for files. For more information about `s3fs-fuse`, see the [S3sf Wiki](https://github.com/s3fs-fuse/s3fs-fuse/wiki/FAQ).
 {:tip}
 
 Linux is a registered trademark of Linus Torvalds in the United States, other countries, or both.

@@ -12,8 +12,8 @@ subcollection: network-attached-storage
 {:deprecated: .deprecated}
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
-{:new_window: target="_blank"}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:tip: .tip}
 
@@ -54,7 +54,7 @@ You can use NAS with cPanel and WHM for your backups. You can load data through 
    </tr>
    </table>
 
-   For more information about configuration options, see [cPanel's wiki ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://docs.cpanel.net/display/68Docs/Backup+Configuration#70704c1ed4aa4817b989519beca3f78d){:new_window}.
+   For more information about configuration options, see [cPanel's wiki](https://docs.cpanel.net/display/68Docs/Backup+Configuration#70704c1ed4aa4817b989519beca3f78d){: external}.
 
 4. Click the **Save** button to save the configuration.
 
