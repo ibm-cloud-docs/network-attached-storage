@@ -19,7 +19,7 @@ subcollection: network-attached-storage
 # Mounting {{site.data.keyword.cos_short}} with s3fuse
 {: #MountCOSs3fuse}
 
-You might want to use {{site.data.keyword.cos_full}} for various reasons. One of them is the ability to store or backup data in a different data center, other than the one where your server is located. For more information about {{site.data.keyword.cos_short}}, see [About {{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage)
+You might want to use {{site.data.keyword.cos_full}} for various reasons. One of them is the ability to store or backup data in a different data center, other than the one where your server is located. For more information about {{site.data.keyword.cos_short}}, see [About {{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about)
 
 You can use the `s3fs-fuse`utility in Linux and Mac OS X to mount an {{site.data.keyword.cos_short}} bucket through FUSE. `s3fs` preserves the original object format for files. For more information about `s3fs-fuse`, see the [S3sf Wiki](https://github.com/s3fs-fuse/s3fs-fuse/wiki/FAQ){: external}.
 {:tip}
@@ -128,7 +128,7 @@ Linux is a registered trademark of Linus Torvalds in the United States, other co
 
 9. Start s3fs fuse. Use the endpoint that corresponds to the location of the bucket that is used. The following example uses the US Cross Region service, public endpoint, and the bucket ‘s3fss3fusetest’. The bucket must exist in your {{site.data.keyword.cos_short}}.
 
-   You can find endpoint and bucket information in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. For more information, see [Select regions and endpoints](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-endpoints){: external} and [Creating buckets to store your data](/docs/services/cloud-object-storage?topic=cloud-object-storage-getting-started-console-#create-buckets){: external}.
+   You can find endpoint and bucket information in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. For more information, see [Select regions and endpoints](/docs/services/cloud-object-storage?topic=cloud-object-storage-endpoints){: external} and [Creating buckets to store your data](/docs/services/cloud-object-storage?topic=cloud-object-storage-getting-started-console-#create-buckets){: external}.
    {:tip}
 
    Syntax
