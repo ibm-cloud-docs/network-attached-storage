@@ -128,7 +128,7 @@ Linux is a registered trademark of Linus Torvalds in the United States, other co
 
 9. Start s3fs fuse. Use the endpoint that corresponds to the location of the bucket that is used. The following example uses the US Cross Region service, public endpoint, and the bucket ‘s3fss3fusetest’. The bucket must exist in your {{site.data.keyword.cos_short}}.
 
-   You can find endpoint and bucket information in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. For more information, see [Select regions and endpoints](/docs/services/cloud-object-storage?topic=cloud-object-storage-endpoints){: external} and [Creating buckets to store your data](/docs/services/cloud-object-storage?topic=cloud-object-storage-getting-started-console-#create-buckets){: external}.
+   You can find endpoint and bucket information in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. For more information, see [Select regions and endpoints](/docs/services/cloud-object-storage?topic=cloud-object-storage-endpoints){: external} and [Creating buckets to store your data](/docs/services/cloud-object-storage?topic=cloud-object-storage-getting-started#gs-create-buckets){: external}.
    {:tip}
 
    Syntax
